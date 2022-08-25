@@ -1,0 +1,69 @@
+/*
+* make the .head div have a background with black gradient
+* set color of h1 to red
+* set color of <a> tags to white
+* increase padding to <a> tags
+*/
+
+.head {
+    background: linear-gradient(0.25turn, #92081f 0%, #000000 20%,#000000 80%, #ba0000 100% );
+    padding: 24px;
+    text-align: center;
+}
+.head h1{
+    font-size: 45px;
+}
+.head a {
+    color: white;
+    padding: 22px;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    padding: 4px;
+    padding-left: 8px;
+    text-align: center;
+    background: #efefef;
+}
+
+tr th {
+    background: #d7d7d7;
+}
+
+.split70 {
+    display: flex;
+    flex-direction: row;
+    margin: 24px;
+    background-color: #eeeeee;
+    border-radius: 24px;
+}
+
+.split70 > a {
+    width: 40%;
+
+}
+
+.split70 > a > img {
+    width: 100%;
+    margin: 16px;
+    
+    object-fit: fill;
+}
+.split-texto {
+    width: 60%;
+    margin: 16px;
+    margin-left: 40px;
+}
+.content {
+    margin: 36px;
+}
+.quote {
+    margin: 36px;
+    font-size: 2em;
+    border-radius: 36px;
+    padding-top: 16px;
+    color: white;
+    padding-bottom: 400px;
+    text-align: center;
+    background-image: url(../images/quotebg.jpeg);
+}
